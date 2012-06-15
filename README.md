@@ -16,4 +16,4 @@ You need to have SBT 0.11.3+ installed. Then
 
 Copyright © 2012 Michael S. Klishin
 
-Distributed under the Eclipse Public License.
+Distributed under the Eclipse Public License
