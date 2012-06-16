@@ -12,10 +12,11 @@ object BuildSettings {
 }
 
 object Resolvers {
-  val typesafeRepo = "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
-  val sonatypeRepo = "Sonatype Releases"   at "http://oss.sonatype.org/content/repositories/releases"
+  val centralRepo  = "Central mirror"  at "http://maven.travis-ci.org/nexus/content/repositories/central/"
+  val typesafeRepo = "Typesafe mirror" at "http://maven.travis-ci.org/nexus/content/repositories/typesafe-releases/"
+  val sonatypeRepo = "Sonatype mirror" at "http://maven.travis-ci.org/nexus/content/repositories/sonatype/"
 
-  val scalaResolvers = Seq(typesafeRepo, sonatypeRepo)
+  val scalaResolvers = Seq(centralRepo, typesafeRepo, sonatypeRepo)
 }
 
 object Dependencies {
