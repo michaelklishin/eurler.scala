@@ -11,7 +11,7 @@ class FibonacciIterator extends Iterator[Long] {
 
   def hasNext = true
 
-  def next = {
+  def next() = {
     val r: Long = FibonacciIterator.fib(n)
     n += 1
     r
