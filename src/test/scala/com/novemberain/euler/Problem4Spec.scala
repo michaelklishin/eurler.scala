@@ -2,7 +2,7 @@ package com.novemberain.euler
 
 import org.specs2.mutable.Specification
 
-import Palindroms.isPalindrome;
+import Palindroms.isPalindrome
 
 class Problem4Spec extends Specification {
   "the largest palindrome made from the product of two 3-digit numbers" should {
