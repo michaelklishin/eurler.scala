@@ -19,7 +19,7 @@ object Resolvers {
 }
 
 object Dependencies {
-  val specs2Version = "1.8.2"
+  val specs2Version = "1.9"
 
   val specs2 = "org.specs2" %% "specs2" % specs2Version
 }
