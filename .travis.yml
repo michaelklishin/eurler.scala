@@ -1,5 +1,2 @@
 language: scala
 script: sbt clean test
-jdk:
-  - openjdk7
-  - oraclejdk7
